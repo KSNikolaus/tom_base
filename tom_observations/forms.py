@@ -1,6 +1,7 @@
 from django import forms
 
 from tom_observations.facility import get_service_classes
+from tom_observations.models import ObservationRecord
 
 
 def facility_choices():
